@@ -2,6 +2,9 @@
 
 Urban Stream Monitor(USM) is a spark pipeline(Batch/Realtime) management application designed to automate pipeline monitoring, continuous health check, and support. Significant features are listed below. 
 
+## Product Details
+Product details can be found at http://urbanstreammonitor.com/
+
 ## Features
 
 1. Continuous monitoring of spark pipeline, both batch and real-time.
@@ -96,7 +99,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update the tests as appropriate.
 
-For any issues/change requests/suggestions/help kindly contact @ tushar.kesarwani@publicissapient.com or contact@asktushar.com
+For any issues/change requests/suggestions/help kindly contact contact@asktushar.com
 
 ## License
 Made for the P.S Code initiative to be used accross P.S for Data Intensive projects. Do leave your feedback if you are using it.
