@@ -102,4 +102,4 @@ Please make sure to update the tests as appropriate.
 For any issues/change requests/suggestions/help kindly contact contact@asktushar.com
 
 ## License
-Made for the P.S Code initiative to be used accross P.S for Data Intensive projects. Do leave your feedback if you are using it.
+Made for the open source to be used accross Data Intensive projects. Do leave your feedback if you are using it.
