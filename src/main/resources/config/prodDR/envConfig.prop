@@ -1,0 +1,7 @@
+hiveConnectionUrl=<"Insert Connection detail here">
+PhoenixConnectionUrl=<"Insert Connection detail here">
+insertLogQuery=insert into prod_hive.RealTimeLogs PARTITION(LogDate=?) (app_name,application_id,status,count,log_datetime,desc) values(?,?,?,?,?,?)
+logSqlQuery=select count from (select * from prod_hive.RealTimeLogs where app_name=? and log_datetime > ? and logdate >= ? order by log_datetime asc limit 1)a
+timestampSqlQuery=select log_datetime from (select * from prod_hive.RealTimeLogs where app_name=? and log_datetime > ? and logdate >= ? order by log_datetime asc limit 1)a
+getFirstLogQuery=select count(*) as count from prod_hive.RealTimeLogs where app_name=?
+lastRestartQuery=select count from (select count(*) as count from prod_hive.RealTimeLogs where app_name=? and status=? and log_datetime > ? and logdate>=?  limit 5)a

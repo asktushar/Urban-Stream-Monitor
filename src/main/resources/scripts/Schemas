@@ -1,0 +1,11 @@
+ ##DEV_HIVE
+ CREATE TABLE IF NOT EXISTS RealTimeLogs(
+  app_name string,
+  application_id string,
+  status string,
+  count string,
+  log_datetime string,
+  desc string
+  )
+  PARTITIONED BY (
+  LogDate date);

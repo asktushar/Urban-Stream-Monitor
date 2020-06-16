@@ -1,0 +1,2 @@
+keytabFile=/etc/security/keytabs/<"Insert User here">.keytab
+principalName=<"Insert User here">@HDP.SANDBOX.LOCAL
