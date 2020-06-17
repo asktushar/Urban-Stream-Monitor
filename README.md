@@ -1,6 +1,6 @@
 # Urban Stream Monitor (Spark Pipeline Management Suite)
 
-Urban Stream Monitor(USM) is a spark pipeline(Batch/Realtime) management application designed to automate pipeline monitoring, continuous health check, and support. Significant features are listed below. 
+Urban Stream Monitor(USM) is a spark pipeline(Batch/Realtime) management application designed to automate pipeline monitoring, continuous health check, and support. Significant features are listed below:-
 
 ## Product Details
 Product details can be found at http://urbanstreammonitor.com/
