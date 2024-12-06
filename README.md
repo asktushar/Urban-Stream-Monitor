@@ -19,7 +19,7 @@ Product details can be found at http://urbanstreammonitor.com/
 
 ## Installation
 
-Use MVN to install USM.
+Use MVN to install USM locally.
 
 ```bash
 clean compile install
